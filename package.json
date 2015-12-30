@@ -1,0 +1,51 @@
+{
+  "name": "nhpp",
+  "version": "0.0.0",
+  "description": "Node Hypertext PreProcessor",
+  "license": "MIT",
+  "main": "lib/nhpp.js",
+  "homepage": "https://github.com/jkrems/nhpp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jkrems/nhpp"
+  },
+  "bugs": {
+    "url": "https://github.com/jkrems/nhpp/issues"
+  },
+  "scripts": {
+    "pretest": "eslint lib test",
+    "test": "mocha",
+    "posttest": "nlm verify"
+  },
+  "nlm": {
+    "license": {
+      "files": [
+        "lib"
+      ]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "assertive": "^2.0.0",
+    "eslint": "^1.0.0",
+    "eslint-config-groupon": "^2.0.0",
+    "mocha": "^2.0.0",
+    "nlm": "^2.0.0"
+  },
+  "author": {
+    "name": "Jan Krems",
+    "email": "jan.krems@gmail.com"
+  },
+  "keywords": [
+    "node",
+    "php",
+    "server-pages"
+  ],
+  "files": [
+    "*.js",
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
