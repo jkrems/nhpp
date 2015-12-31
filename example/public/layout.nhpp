@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 </head>
 <body>
-  <div className="container">
-    <h1>Hello {props.name || 'World'}!</h1>
-    <blockquote>How are you on this wonderful day?</blockquote>
-  </div>
+  <div className="container">{props.children}</div>
 </body>
 </html>
