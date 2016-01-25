@@ -14,6 +14,7 @@
     "url": "https://github.com/jkrems/nhpp/issues"
   },
   "scripts": {
+    "start": "node ./cli.js example",
     "pretest": "eslint lib test",
     "test": "mocha",
     "posttest": "nlm verify"
