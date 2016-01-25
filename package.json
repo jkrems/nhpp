@@ -38,6 +38,7 @@
     "lodash": "^3.10.1",
     "react": "^0.14.5",
     "react-dom": "^0.14.5",
+    "swagger-ui": "^2.1.4",
     "wegweiser": "^4.2.0"
   },
   "devDependencies": {
