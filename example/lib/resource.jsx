@@ -1,7 +1,7 @@
 import React from 'react';
 import {GET} from 'wegweiser';
 
-import Consumer from './public/consumer';
+import Consumer from './consumer';
 
 export default class Routes {
   @GET('/routed')

@@ -4,6 +4,7 @@
   "description": "Node Hypertext PreProcessor",
   "license": "MIT",
   "main": "lib/nhpp.js",
+  "bin": "cli.js",
   "homepage": "https://github.com/jkrems/nhpp#readme",
   "repository": {
     "type": "git",

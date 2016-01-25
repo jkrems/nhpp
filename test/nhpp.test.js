@@ -1,10 +1,10 @@
 'use strict';
 var assert = require('assertive');
 
-var nhpp = require('../');
+var startForDirectory = require('../');
 
-describe('nhpp', function () {
-  it('is empty', function () {
-    assert.deepEqual({}, nhpp);
+describe('startForDirectory', function () {
+  it('is a function', function () {
+    assert.hasType(Function, startForDirectory);
   });
 });
